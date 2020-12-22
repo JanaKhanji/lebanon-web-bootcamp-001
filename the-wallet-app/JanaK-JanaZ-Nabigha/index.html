@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Hind+Madurai&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <nav id="navbar1">
+      My Wallet App
+    </nav>
+    <br><br>
+   <div class="container" >
+    <div id="wallet">
+
+    <div class="d-flex justify-content-center">
+      <figure>
+    <img width="300px" src="https://www.creativefabrica.com/wp-content/uploads/2019/01/Wallet-icon-by-back1design1-580x382.png">
+    </figure> 
+    </div>
+    <!--https://www.flaticon.com/svg/static/icons/svg/584/584026.svg-->
+    
+    <!--https://www.flaticon.com/svg/static/icons/svg/584/584026.svg-->
+    <div class="row d-flex justify-content-center">
+      <div class="col-9">
+    <form class="form-group" id="createWallet">
+      <label>Name</label>
+       <input type="text" class="form-control" placeholder="Wallet Name" id="name">
+       <div class="row">
+         <div class="col" >
+      <label>Currency</label>
+         </div>
+           <div class="col-6" >
+      <input type="radio" name="currency" value="0"> <label>Dollar ($)</label> <br>
+      <input type="radio" name="currency" value="1">
+      <label>Lebanese Pound (LBP)</label> <br>
+           </div>
+       </div>
+        <label>Balance</label>
+       <input type="number" class="form-control" placeholder="Wallet balance" id="money">
+        <label>Description</label><br>
+       <input type="text" class="form-control" placeholder="Description" id="description">
+       <br>
+     <button id="createsubmit" type="submit" class="btn btn-secondary">Create new wallet</button>
+    
+          </form>
+    
+    </div>
+    </div>
+   </div>
+    
+   </div>
+    <script src="script.js"></script>
+  </body>
+</html>
