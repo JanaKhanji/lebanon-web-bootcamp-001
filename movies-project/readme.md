@@ -9,6 +9,7 @@
 - use this function with fetch and don’t change it, the `path` is basically whatever your are requesting after the `TMDB_BASE_URL` for example `search/movie`
 
 ```jsx
+const TMDB_BASE_URL = `https://api.themoviedb.org/3`;
 const constructUrl = (path, query) => {
   return `${TMDB_BASE_URL}/${path}?api_key=${atob(
     'ZDJmYTdhZDFlMjZhZjA4NDdkMzQ5ZDdkYmQ1ZjkzZTU='
