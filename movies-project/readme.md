@@ -1,7 +1,5 @@
 # Version 3
 
-updated at Jun 27 2:00 pm
-
 ### What to do in class
 
 - add a function inside the `app.js` called `handleQuery(query)` it will handle the change of the input in the `SearchBox`, pass it to The `Navbar` component and then pass it to the `SearchBox` component and `onSubmit` of your search form, use this function to pass the search query back to the `app.js` you should pass the query to the `Main` component as a prop too, finally console.log(props.query) inside your `Main` component.
