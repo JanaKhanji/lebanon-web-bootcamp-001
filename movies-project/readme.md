@@ -4,7 +4,7 @@
 
 - add a function inside the `app.js` called `handleQuery(query)` it will handle the change of the input in the `SearchBox`, pass it to The `Navbar` component and then pass it to the `SearchBox` component and `onSubmit` of your search form, use this function to pass the search query back to the `app.js` you should pass the query to the `Main` component as a prop too, finally console.log(props.query) inside your `Main` component.
 
-- have another function called `handleMovies(movies)` which will do the same as `handleQuery(query)` function but instead when user Submit the form you should search for the input using the `constructUrl` function passing it the search path and query, and then return the results into the main component using the handler function, read the following points when implementing
+- have another function called `handleMovies(movies)` which will do the same as `handleQuery(query)` function but instead when user Submit the form you should search for the input using the `constructUrl` function passing it the search path and query, so fetch the movies inside the  `SearchBox` pass them to `handleMovies(movies)`, and then return the results into the main component using the handler function, read the following points when implementing
 
 - use this function with fetch and don’t change it, the `path` is basically whatever your are requesting after the `TMDB_BASE_URL` for example `search/movie`
 
