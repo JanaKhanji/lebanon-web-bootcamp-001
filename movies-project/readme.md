@@ -8,18 +8,42 @@
 - The MoviePage component should have a back button that when clicked, will return to the grid view.
 - It is preferable that you use async/await to load the movie inside the MoviePage component.
 
+### Homework
+
+In class, you have created a 2 pages application. The first page is the MovieGrid, the second one is the MoviePage. While this approach works, but for large applications with many pages, we require a routing library that makes things easier for us.
+
+Let’s explore the react-router-dom library, and refactor our app to use this library and make our pages routing professional.
+
+Tasks:
+
+- When the user clicks a movie item it should go to `/movie/${movie.title}` using the react-router and render the movie page which is basically the `MoviePage` component
+- When the user goes back using the browser’s back button, the app should send him to the previous page.
+- When the user clicks the logo or home button, it should also send them to the grid or main page
+- Organize the content inside the movie info and you should at least have an
+  - Image
+  - Title
+  - Release date
+  - Overview
+  - rate
+  - Genres (you will need to fetch all the genres and do some comparison do get the name of the genres)
+  - Trailers of this movie (which will include another fetch)
+  - Actors of this movie (which will include another fetch)
+
+### Style
+
+Be creative here it is your project, make it stand out!
+
 # Version 3
 
 ### What to do in class
 
 - add a function inside the `app.js` called `handleQuery(query)` it will handle the change of the input in the `SearchBox`, pass it to The `Navbar` component and then pass it to the `SearchBox` component and `onSubmit` of your search form, use this function to pass the search query back to the `app.js` you should pass the query to the `Main` component as a prop too, finally console.log(props.query) inside your `Main` component.
 
-- have another function called `handleMovies(movies)` which will do the same as `handleQuery(query)` function but instead when user Submit the form you should search for the input using the `constructUrl` function passing it the search path and query, so fetch the movies inside the  `SearchBox` pass them to `handleMovies(movies)`, and then return the results into the main component using the handler function, read the following points when implementing
+- have another function called `handleMovies(movies)` which will do the same as `handleQuery(query)` function but instead when user Submit the form you should search for the input using the `constructUrl` function passing it the search path and query, and then return the results into the main component using the handler function, read the following points when implementing
 
 - use this function with fetch and don’t change it, the `path` is basically whatever your are requesting after the `TMDB_BASE_URL` for example `search/movie`
 
 ```jsx
-const TMDB_BASE_URL = `https://api.themoviedb.org/3`;
 const constructUrl = (path, query) => {
   return `${TMDB_BASE_URL}/${path}?api_key=${atob(
     'ZDJmYTdhZDFlMjZhZjA4NDdkMzQ5ZDdkYmQ1ZjkzZTU='
