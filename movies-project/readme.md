@@ -1,3 +1,18 @@
+# Version 5
+
+Updated at July 4 2:30 pm
+
+### What to do in class
+
+We are going to decouple our state from our components, and provide the state to the whole application using the context provider.
+
+- Create a component called StateProvider.js
+- Move all the state from App.js into the StateProvider.js
+- Refactor the state to use a reducer and the useReducer hook instead of useState
+- Create a context and export it in StateProvider.js
+- Pass the state and dispatch to all children of the Provider
+- delete all your props that use the state, and use the useContext hook to read the state and dispatch.
+
 # Version 4
 
 ### What to do in class
