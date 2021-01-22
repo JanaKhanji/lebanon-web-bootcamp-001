@@ -38,7 +38,8 @@ You are recommended to have these components:
 
 use context api with useReducer to manage the state in this app and pass the state as a prop where you think it should be passed.
 
-use this graph as a preference
+use this graph as a reference
+
 ![State graph](https://i.ibb.co/wWYFPHK/image.png)
 
 ## Style
