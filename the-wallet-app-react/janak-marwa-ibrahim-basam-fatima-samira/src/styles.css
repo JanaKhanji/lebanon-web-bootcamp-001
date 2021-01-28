@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@600&display=swap");
+
+body {
+  background-image: linear-gradient(to right, #4f6ecb62, #b8299465);
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: "Cairo", Arial, sans-serif;
+}
+.App {
+  padding: 3vh 50px;
+}
+.custRow {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.asideMenu {
+  height: 94vh;
+  background-color: #3e2fc2;
+  padding: 20px;
+  border-radius: 20px;
+  position: fixed;
+}
+.content {
+  align-self: center;
+  margin-left: 150px;
+  width: 80vw;
+}
+.custButton {
+  background-color: #5f0dab;
+  border-radius: 10px;
+
+  border: none;
+}
+.custButton:hover {
+  background-color: #3f0972;
+}
+.about {
+  height: 80vh;
+  text-align: left;
+}
+.Title {
+  color: #3e2fc2;
+  font-weight: bold;
+}

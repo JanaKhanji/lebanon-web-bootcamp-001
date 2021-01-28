@@ -1,0 +1,15 @@
+.walletDetail {
+  padding: 20px;
+  border-radius: 20px;
+  position: fixed;
+  right: 50px;
+  width: 220px;
+  overflow: hidden;
+}
+.rigthMargin {
+  padding-right: 250px;
+  flex-direction: column;
+  display: flex;
+  height: 94vh;
+  justify-content: flex-start;
+}

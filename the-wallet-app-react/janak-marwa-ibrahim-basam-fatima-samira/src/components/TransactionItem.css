@@ -1,0 +1,18 @@
+.card {
+  background-color: #fff;
+  background-clip: border-box;
+  border: none;
+  border-radius: 0.25rem;
+}
+.custRowItem {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  cursor: pointer;
+}
+.card-header {
+  border-radius: 0.25rem;
+
+  background-color: transparent;
+}

@@ -1,0 +1,46 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+#backbtn {
+  margin-left: 10%;
+}
+
+.Header {
+  margin-bottom: 3%;
+  background-color: rgba(57, 62, 93, 0.7);
+  min-height: 10vh;
+}
+
+.navbar .white {
+  color: white;
+}
+.navbar .noDecoration:hover {
+  text-decoration: none;
+}
+img {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#movTitle {
+  font-size: 300%;
+}
+#movDes {
+  font-size: 120%;
+}
+.colms {
+  margin: 1%;
+}
+
+.footer {
+  margin-top: 5%;
+  padding: 10px;
+  background-color: rgba(57, 62, 93, 0.7);
+  height: 20%;
+}
+.footer a {
+  color: white;
+}
+#dropdown-basic{background: rgba(57, 62, 93, 0.7); border-color:rgba(57, 62, 93, 0.7);}
